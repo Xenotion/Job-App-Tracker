@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <Tasks />
+    <Jobs />
   </div>
 </template>
+
 <script>
-import Tasks from "./components/Jobs.vue";
+import Jobs from "./components/Jobs.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
+
 export default {
   name: "App",
   components: {
-    Tasks,
-  },
+    Jobs,
+},
 };
 </script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -22,3 +26,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
