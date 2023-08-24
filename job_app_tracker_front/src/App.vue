@@ -6,13 +6,12 @@
 
 <script>
 import Jobs from "./components/Jobs.vue";
-// import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
   components: {
-    Jobs,
-},
+      Jobs,
+  },
 };
 </script>
 
